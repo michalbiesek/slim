@@ -9,17 +9,19 @@ const (
 	ArchNameAmd64       ArchName = "amd64"
 	ArchNameArm32       ArchName = "armhf"
 	ArchNameArm64       ArchName = "aarch64"
+	ArchNameRiscv64     ArchName = "riscv64"
 )
 
 type MachineName string
 
 const (
-	MachineNameNamei386   MachineName = "i386"
-	MachineNameNamei586   MachineName = "i586"
-	MachineNameNamei686   MachineName = "i686"
-	MachineNameNamex86_64 MachineName = "x86_64"
-	MachineNameNameArm    MachineName = "armv7l"
-	MachineNameNameArm64  MachineName = "aarch64"
+	MachineNameNamei386    MachineName = "i386"
+	MachineNameNamei586    MachineName = "i586"
+	MachineNameNamei686    MachineName = "i686"
+	MachineNameNamex86_64  MachineName = "x86_64"
+	MachineNameNameArm     MachineName = "armv7l"
+	MachineNameNameArm64   MachineName = "aarch64"
+	MachineNameNameRiscv64 MachineName = "riscv64"
 )
 
 type ArchBits uint8

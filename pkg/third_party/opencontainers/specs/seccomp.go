@@ -27,6 +27,7 @@ const (
 	ArchX32     Arch = "SCMP_ARCH_X32"
 	ArchARM     Arch = "SCMP_ARCH_ARM"
 	ArchAARCH64 Arch = "SCMP_ARCH_AARCH64"
+	ArchRISCV64 Arch = "SCMP_ARCH_RISCV64"
 )
 
 // Action taken upon Seccomp rule match

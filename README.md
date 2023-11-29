@@ -225,6 +225,8 @@ slim update
 
    - [Latest Linux ARM64 binaries](https://downloads.dockerslim.com/releases/1.40.6/dist_linux_arm64.tar.gz) (`curl -L -o ds.tar.gz https://downloads.dockerslim.com/releases/1.40.6/dist_linux_arm64.tar.gz`)
 
+   - [Latest Linux RISC-V64 binaries](https://downloads.dockerslim.com/releases/1.40.6/dist_linux_riscv64.tar.gz) (`curl -L -o ds.tar.gz https://downloads.dockerslim.com/releases/1.40.6/dist_linux_riscv64.tar.gz`)
+
 2. Unzip the package and optionally move it to your bin directory.
 
 Linux (for non-intel replace `dist_linux` with the platform-specific extracted path):

@@ -38,6 +38,8 @@ function get_slim() {
       DIST="linux_arm"
     elif [ "${MACHINE}" == "aarch64" ]; then
       DIST="linux_arm64"
+    elif [ "${MACHINE}" == "riscv64" ]; then
+      DIST="linux_riscv6s4"
     fi
   elif [ "${KERNEL}" == "Darwin" ]; then
     EXT="zip"
